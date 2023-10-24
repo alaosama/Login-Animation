@@ -135,3 +135,17 @@ section .signin .content .form .inputBox i {
     color: #aaa;
     pointer-events: none;
 }
+
+.signin .content .form .inputBox input:focus~i,
+.signin .content .form .inputBox input:valid~i {
+    transform: translate(-7.5px);
+    font-size: 0.8em;
+    color: #fff;
+}
+
+.signin .content .form .links {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
