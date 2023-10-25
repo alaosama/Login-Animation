@@ -3,34 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Login Animation</title>
 </head>
 <body>
     <section>
-        <span></span> <span></span> <span></span> <span></span> <span></span>
-    
-        <div class="signin">
-            <div class="content">
-                <h2>Sign In</h2>
-                <div class="form">
-                    <div class="inputBox">
-                        <input type="text" required> <i>Username</i>
-                    </div>
-                    <div class="inputBox">
-                        <input type="password" required> <i>Password</i>
-                    </div>
-                    <div class="links">
-                        <a href="#">Forgot Password</a>
-                        <a href="#">Signup</a>
-                    </div>
-                    <div class="inputBox">
-                        <input type="submit" value="Login">
-                    </div>
-                </div>
+            <span></span>
+    <div class="wrapper">
+        <form action="" method="get">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" name="" id="txt" placeholder="Username" required>
+                <label for="txt"><i class='bx bx-user' ></i></label>
             </div>
-        </div>
 
-    
+            <div class="input-box">
+                <input id="pass" type="password" placeholder="Password" required="oooooooooo">
+                <label for="pass"><i class='bx bx-lock-alt'></i></label>
+            </div>
+
+            <div class="remember-forgot">
+                <label for=""><input type="checkbox"> Remember me</label>
+                <a href="#"> Forgot password ?</a>
+            </div>
+            <button type="submit" class="btn"> Login </button>
+            
+            <!--<input class="btn" type="submit" value="Login">-->
+            
+            <div class="register-link">
+                <p>Don't have an account? <a 
+                href="#">Register</a></p>
+            </div>
+        </form>
+
     
     </section>
 </body>
