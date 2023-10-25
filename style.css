@@ -154,3 +154,24 @@ section .signin .content .form .inputBox i {
     color: #0f0;
     font-weight: 600;
 }
+
+.signin .content .form .inputBox input[type="submit"]{
+    padding: 10px;
+    background-color: #0f0;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.35em;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+}
+
+input[type="submit"]:active{
+    opacity: 0.6;
+}
+
+@media (max-width: 900px) {
+    secttion span {
+        width: calc(100vw - 2px);
+        height: calc(100vw - 2px);
+    }
+}
