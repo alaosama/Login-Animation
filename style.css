@@ -149,3 +149,8 @@ section .signin .content .form .inputBox i {
     display: flex;
     justify-content: space-between;
 }
+
+.signin .content .form .links a:nth-child(2){
+    color: #0f0;
+    font-weight: 600;
+}
